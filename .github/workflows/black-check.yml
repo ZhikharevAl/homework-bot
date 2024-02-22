@@ -21,4 +21,4 @@ jobs:
           pip install black
       - name: Check with Black
         run: |
-          black --check .
+          black --check . || (echo "Black check failed, aborting commit" && exit 1)
