@@ -1,9 +1,0 @@
-print("wadwa")
-
-
-
-
-
-
-
-print("wadwa")
